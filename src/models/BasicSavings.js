@@ -18,7 +18,7 @@ const basicsavingsSchema = mongoose.Schema({
     },
     transaction_time : {
         type : Date, 
-       default: Date.now 
+       default: Date.now() 
    }
 })
 
